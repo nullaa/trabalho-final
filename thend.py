@@ -158,7 +158,7 @@ def menu():
 
         elif opcao == "2":
             print("Opção selecionada: Comprar")
-           # consulta_cliente()
+            consulta_cliente()
             print("Vamos as compras")
             mostrar_produto(estoque)
             comprar(estoque,carrinho_compras,carrinho_compras_valor)
